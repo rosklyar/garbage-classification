@@ -4,7 +4,7 @@ class Config:
         self.dataset_dir = 'garbage_dataset'
         self.checkpoint_dir = 'checkpoints/garbage_classification_nn'
         self.device = 'cuda:0'
-        self.load_checkpoint_path = 'checkpoints/garbage_classification_nn/epoch21_f1=0.89007.pth'
+        self.load_checkpoint_path = None
         # number of subfolders in dataset_dir
         self.classes = len(os.listdir(self.dataset_dir))
         self.batch_size = 16
